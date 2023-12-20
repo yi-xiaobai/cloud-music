@@ -8,14 +8,12 @@ import Rank from "../Application/Rank";
 export default [
   {
     path: "/",
-    components: Home,
+    component: Home,
     routes: [
       {
         path: "/",
         exact: true,
-        render: () => {
-          <Redirect to={"/recommend"} />;
-        },
+        render: () => <Redirect to={"/recommend"} />,
       },
       {
         path: "/recommend",
