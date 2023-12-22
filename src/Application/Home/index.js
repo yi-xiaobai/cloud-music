@@ -4,9 +4,7 @@ import { NavLink } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 
 function Home(props) {
-  console.log("11", props);
   const route = props.route;
-  console.log("==>Get route", route);
   return (
     <div>
       <Top>

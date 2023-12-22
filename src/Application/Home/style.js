@@ -6,6 +6,8 @@ export const Top = styled.div`
   justify-content: space-between;
   padding: 5px 10px;
   background: ${style["theme-color"]};
+  position: relative;
+  z-index: 5;
   & > span {
     line-height: 40px;
     color: #f1f1f1;
@@ -17,6 +19,8 @@ export const Top = styled.div`
 `;
 
 export const Tab = styled.div`
+  position: relative;
+  z-index: 5;
   height: 44px;
   display: flex;
   flex-direction: row;
